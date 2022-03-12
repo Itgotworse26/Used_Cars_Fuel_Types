@@ -7,8 +7,18 @@ The purpose of this assignment is to use a machine learning model to predict the
 Consumers are becoming more environmentally conscious. An electric company like Tesla would be interested in learning whether petrol/diesel fueled-cars sales have been and will be falling in the Indian vehicle market.  
 
 
+## Team Roles
+* Square: Winnie Wang
+
+* Triangle: Alvin Tran
+
+* Circle: Jacob Nyamu
+
+* X Role: Afreen Amina
+
+
 ## Data Resource
-We sourced our data (CSV file) from a Kaggle dataset called [“Vehicle dataset”](https://www.kaggle.com/nehalbirla/vehicle-dataset-from-cardekho). 
+We sourced our data (CSV file) from a Kaggle dataset called [“Vehicle dataset”](https://www.kaggle.com/nehalbirla/vehicle-dataset-from-cardekho). It is a list of used cars sold in India via cardekho.
 
 
 ## Questions We Hope to Answer With the Data:
@@ -17,6 +27,10 @@ We sourced our data (CSV file) from a Kaggle dataset called [“Vehicle dataset�
 3. Do electric car companies have a market opportunity in India?
 4. Whether diesel or petrol sells at a better price. 
 5. Whether diesel or petrol have more mileage at the time of selling.
+
+
+## Database
+We plan on cleaning the data and then adding it to create a SQL database.
 
 
 ## Machine Learning Model
