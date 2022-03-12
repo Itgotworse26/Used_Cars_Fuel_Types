@@ -31,12 +31,13 @@ We sourced our data (CSV file) from a Kaggle dataset called [â€œVehicle datasetâ
 
 ## Database
 We plan on cleaning the data and then adding it to create a SQL database.
-<ETL>
-  1.loading csv file
-  2.drop NA
-  3.split the first column,Name.
-  4.select year data if we need
-  4.save as a new csv file
+#### < ETL >
+  1. Loading csv file
+  2. Drop NA
+  3. Split the first column,Name.
+  4. Select year data if we need.
+  5. Save as a new csv file
+
 
 
 ## Machine Learning Model
