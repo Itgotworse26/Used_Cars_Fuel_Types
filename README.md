@@ -1,4 +1,4 @@
-# Final_Project
+# Used_Cars_Fuel_Types
 Final Group Assignment for Module 20
 
 ## Background
@@ -35,4 +35,3 @@ To explain a little about how it works, imbalanced-learn.org [describes](https:/
 "randomly under-samples each boostrap sample to balance it."
 
 The plan is to use the preferred model to predict how many vehicles of each fuel types will be sold. With this, we can determine if the number of diesel, petrol, or other vehicles will increase or decrease. 
-
