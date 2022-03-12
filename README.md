@@ -18,7 +18,18 @@ Consumers are becoming more environmentally conscious. An electric company like 
 
 
 ## Data Resource
-We sourced our data (CSV file) from a Kaggle dataset called [“Vehicle dataset”](https://www.kaggle.com/nehalbirla/vehicle-dataset-from-cardekho). It is a list of used cars sold in India via cardekho.
+We sourced our data (CSV file) from a Kaggle dataset called [“Vehicle dataset”](https://www.kaggle.com/nehalbirla/vehicle-dataset-from-cardekho). We used the Car details v3.csv file. It is a list of used cars sold in India via cardekho. The datafields are as follows:
+
+* name (Manufactuerer and model of vehicle)
+* year (Model year)
+* selling_price
+* km_driven
+* fuel
+* seller_type (Whether the seller was an individual or dealer)
+* transmission
+* owner (Whether the owner was the first, second, or other owner)
+* mileage
+* engine
 
 
 ## Questions We Hope to Answer With the Data:
