@@ -30,18 +30,7 @@ We sourced our data (CSV file) from a Kaggle dataset called [â€œVehicle datasetâ
 
 
 ## Database
-<<<<<<< HEAD
 We plan on cleaning the data and then adding it to create a SQL database. Our provisional ERD can be seen [here] (https://lucid.app/lucidchart/db00eca8-f242-4314-a285-84b4344fc61f/edit?invitationId=inv_490fedc4-bb98-41f8-acfb-adc7dffec027).
-=======
-We plan on cleaning the data and then adding it to create a SQL database.
-#### < ETL >
-  1. Loading csv file
-  2. Drop NA
-  3. Split the first column,Name.
-  4. Select year data if we need.
-  5. Save as a new csv file
-
->>>>>>> 6ff31a2021bbc9426d9ee414e48883ecec654536
 
 
 ## Machine Learning Model
@@ -59,8 +48,4 @@ To explain a little about how it works, imbalanced-learn.org [describes](https:/
 
 "randomly under-samples each boostrap sample to balance it."
 
-<<<<<<< HEAD
 The plan is to use the preferred model to predict how many vehicles of each fuel types will be sold. With this, we can determine if the sale of diesel, petrol, or other vehicles will increase or decrease. We can also try to answer whether diesel or petrol vehicles have more mileage at the time of selling.
-=======
-The plan is to use the preferred model to predict how many vehicles of each fuel types will be sold. With this, we can determine if the number of diesel, petrol, or other vehicles will increase or decrease. 
->>>>>>> 6ff31a2021bbc9426d9ee414e48883ecec654536
