@@ -4,7 +4,7 @@ Final Group Assignment for Module 20
 ## Background
 The purpose of this assignment is to use a machine learning model to predict the type of fuel a car from a used car database will use. By using data from www.cardekho.com, we will determine the fuel type of a used car sold in India. By predicting whether a car will be diesel, petrol, or other, we can observe what the fuel types of different vehicles are and whether it will affect their numbers in the future.  
 
-Consumers are becoming more environmentally conscious. An electric company like Tesla would be interested in learning whether petrol/diesel fueled-cars sales have been and will be falling in the Indian vehicle market.  
+Consumers are becoming more environmentally conscious and electric vehicles have become mainstream in recent. An electric car company like Tesla would be interested in learning whether the sale of petrol/diesel fueled-cars sales have been or will be falling in the Indian vehicle market, which could signal the potential growth of a new market.  
 
 
 ## Team Roles
@@ -41,7 +41,7 @@ We sourced our data (CSV file) from a Kaggle dataset called [â€œVehicle datasetâ
 
 
 ## Database
-We plan on cleaning the data and then adding it to create a SQL database. Our provisional ERD can be seen [here](https://lucid.app/lucidchart/db00eca8-f242-4314-a285-84b4344fc61f/edit?invitationId=inv_490fedc4-bb98-41f8-acfb-adc7dffec027). We also have a provisional schema with two tables; Car_Details and Other_Cars_Details with a car_id primary key, that we are planning to clean up and use. 
+We plan on cleaning the data and then adding it to create a SQL database. Our provisional ERD can be seen [here](https://lucid.app/lucidchart/db00eca8-f242-4314-a285-84b4344fc61f/edit?invitationId=inv_490fedc4-bb98-41f8-acfb-adc7dffec027). We also have a provisional schema with two tables; Car_Details and Other_Cars_Details that both use car_id as a primary key, that we are planning to clean up and use. 
 
 
 ## Machine Learning Model
