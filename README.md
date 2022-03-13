@@ -41,7 +41,35 @@ We sourced our data (CSV file) from a Kaggle dataset called [â€œVehicle datasetâ
 
 
 ## Database
-We plan on cleaning the data and then adding it to create a SQL database. Our provisional ERD can be seen [here](https://lucid.app/lucidchart/db00eca8-f242-4314-a285-84b4344fc61f/edit?invitationId=inv_490fedc4-bb98-41f8-acfb-adc7dffec027). We also have a provisional schema with two tables; Car_Details and Other_Cars_Details that both use car_id as a primary key, that we are planning to clean up and use. 
+We plan on cleaning the data and then adding it to create a SQL database. Our provisional ERD can be seen [here](https://lucid.app/lucidchart/db00eca8-f242-4314-a285-84b4344fc61f/edit?invitationId=inv_490fedc4-bb98-41f8-acfb-adc7dffec027). 
+
+We also have a provisional schema with two tables; Car_Details and Other_Cars_Details that both use car_id as a primary key, that we are planning to clean up and use. The current schema looks like this:
+
+```
+CREATE TABLE Cars_Details (	
+     car_id VARCHAR(10) NOT NULL,
+     name VARCHAR NOT NULL,
+	 year int NOT NULL,
+	 selling_price int NOT NULL,
+	 fuel VARCHAR NOT NULL,
+	 seller_type VARCHAR NOT NULL,
+	 seats int NOT NULL,
+     PRIMARY KEY (car_id)
+);
+
+CREATE TABLE Other_Cars_Details (
+     car_id VARCHAR(10) NOT NULL,
+     name VARCHAR NOT NULL,
+	 km_driven int NOT NULL,
+	 transmission VARCHAR NOT NULL,
+	 owner VARCHAR NOT NULL,
+	 mileage VARCHAR NOT NULL,
+	 ngine VARCHAR NOT NULL,
+	 max_power VARCHAR NOT NULL,	
+	 torque VARCHAR NOT NULL,
+     PRIMARY KEY(car_id)
+);
+```
 
 
 ## Machine Learning Model
@@ -51,12 +79,12 @@ The first model we hope to use is the Easy Ensemble AdaBoost Classifier. In a pr
 
 To quote the scikit [description](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html) of the EEAC:
 
-"An AdaBoost classifier is a meta-estimator that begins by fitting a classifier on the original dataset and then fits additional copies of the classifier on the same dataset but where the weights of incorrectly classified instances are adjusted such that subsequent classifiers focus more on difficult cases."
+> "An AdaBoost classifier is a meta-estimator that begins by fitting a classifier on the original dataset and then fits additional copies of the classifier on the same dataset but where the weights of incorrectly classified instances are adjusted such that subsequent classifiers focus more on difficult cases."
 
 The next model we will use is the Balanced Random Forest Classifier. Even though it only achieved a balanced accuracy scroe of 78.85, we still plan on using it to compare it against the Easy Ensemble AdaBoost Classifier.
 
 To explain a little about how it works, imbalanced-learn.org [describes](https://imbalanced-learn.org/stable/references/generated/imblearn.ensemble.BalancedRandomForestClassifier.html) the BRFC as a model that:
 
-"randomly under-samples each boostrap sample to balance it."
+> "randomly under-samples each boostrap sample to balance it."
 
 The plan is to use the preferred model to predict how many vehicles of each fuel types will be sold. With this, we can determine if the sale of diesel, petrol, or other vehicles will increase or decrease. We can also try to answer whether diesel or petrol vehicles have more mileage at the time of selling.
