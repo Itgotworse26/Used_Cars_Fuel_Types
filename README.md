@@ -45,7 +45,7 @@ We plan on cleaning the data and then adding it to create a SQL database. Our pr
 
 
 ## Machine Learning Model
-We plan on experimenting with a variety of different machine learning models to see what their different results are. 
+We plan on experimenting with a variety of different machine learning models to see what their different results are. The plan is to use fuel type as the target and use the cleaned up data as the features. 
 
 The first model we hope to use is the Easy Ensemble AdaBoost Classifier. In a previous project to classify whether a credit loan application was high-risk or low-risk, a classifier that used the Easy Ensemble AdaBoost Classifier achieved a balanced accuracy score of about 93.17%. We hope that the further use of this model leads to a similar accuracy on our current project.
 
