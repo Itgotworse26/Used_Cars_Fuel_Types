@@ -41,7 +41,7 @@ We sourced our data (CSV file) from a Kaggle dataset called [â€œVehicle datasetâ
 
 
 ## Database
-We plan on cleaning the data and then adding it to create a SQL database. Our provisional ERD can be seen [here](https://lucid.app/lucidchart/db00eca8-f242-4314-a285-84b4344fc61f/edit?invitationId=inv_490fedc4-bb98-41f8-acfb-adc7dffec027).
+We plan on cleaning the data and then adding it to create a SQL database. Our provisional ERD can be seen [here](https://lucid.app/lucidchart/db00eca8-f242-4314-a285-84b4344fc61f/edit?invitationId=inv_490fedc4-bb98-41f8-acfb-adc7dffec027). We also have a provisional schema with two tables; Car_Details and Other_Cars_Details with a car_id primary key, that we are planning to clean up and use. 
 
 
 ## Machine Learning Model
