@@ -9,7 +9,7 @@ Consumers are becoming more environmentally conscious and electric vehicles have
 
 
 ## Team Roles
-* Square: Winnie Wang
+* Square: Wei Ting Wang
 
 * Triangle: Alvin Tran
 
