@@ -1,5 +1,5 @@
 CREATE TABLE Cars_Details (	
-     car_id VARCHAR(10) NOT NULL,
+      car_id VARCHAR(10) NOT NULL,
      name VARCHAR NOT NULL,
 	 year int NOT NULL,
 	 selling_price int NOT NULL,
