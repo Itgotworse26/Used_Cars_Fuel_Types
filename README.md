@@ -4,7 +4,10 @@ Final Group Assignment for Module 20
 ## Background
 The purpose of this assignment is to use a machine learning model to predict the type of fuel a car from a used car database will use. By using data from www.cardekho.com, we will determine the fuel type of a used car sold in India. By predicting whether a car will be diesel, petrol, or other, we can observe what the fuel types of different vehicles are and whether it will affect their numbers in the future.  
 
-Consumers are becoming more environmentally conscious and electric vehicles have become mainstream in recent. An electric car company like Tesla would be interested in learning whether the sale of petrol/diesel fueled-cars sales have been or will be falling in the Indian vehicle market, which could signal the potential growth of a new market.  
+Consumers are becoming more environmentally conscious and electric vehicles have become mainstream in recent. An electric car manufactuerer interested in breaking into the Indian car market can glean valuable data as to whether the sale of petrol/diesel fueled-cars sales have been or will be falling in the Indian vehicle market, which could signal the potential growth of a new market for an electric car.  
+
+## Link to Presentation
+[Link to Slides](https://docs.google.com/presentation/d/1l1r_11tTvZuUeoXyJWqmmhsQXKu7Xm3TU2VSQZbhsMw/edit?usp=sharing)
 
 
 ## Team Roles
@@ -88,3 +91,5 @@ To explain a little about how it works, imbalanced-learn.org [describes](https:/
 > "randomly under-samples each boostrap sample to balance it."
 
 The plan is to use the preferred model to predict how many vehicles of each fuel types will be sold. With this, we can determine if the sale of diesel, petrol, or other vehicles will increase or decrease. We can also try to answer whether diesel or petrol vehicles have more mileage at the time of selling.
+
+However, over the course 
