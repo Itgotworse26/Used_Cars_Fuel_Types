@@ -4,16 +4,11 @@ Final Group Assignment for Module 20
 ## Background
 The purpose of this assignment is to use a machine learning model to predict the type of fuel a car from a used car database will use. By using data from www.cardekho.com, we will determine the fuel type of a used car sold in India. By predicting whether a car will be diesel, petrol, or other, we can observe what the fuel types of different vehicles are and whether it will affect their numbers in the future.  
 
-<<<<<<< HEAD
 Consumers are becoming more environmentally conscious and electric vehicles have become mainstream in recent. An electric car manufactuerer interested in breaking into the Indian car market can glean valuable data as to whether the sale of petrol/diesel fueled-cars sales have been or will be falling in the Indian vehicle market, which could signal the potential growth of a new market for an electric car.  
 
 ## Link to Presentation
 [Link to Slides](https://docs.google.com/presentation/d/1l1r_11tTvZuUeoXyJWqmmhsQXKu7Xm3TU2VSQZbhsMw/edit?usp=sharing)
-=======
-<<<<<<< HEAD
-Consumers are becoming more environmentally conscious and electric vehicles have become mainstream in recent. An electric car company like Tesla would be interested in learning whether the sale of petrol/diesel fueled-cars sales have been or will be falling in the Indian vehicle market, which could signal the potential growth of a new market.  
->>>>>>> 11ae36feb8ab3246293ce298214ea2f9694d059f
-
+ 
 
 ## Team Roles
 * Square: Wei Ting Wang
@@ -95,29 +90,12 @@ To explain a little about how it works, imbalanced-learn.org [describes](https:/
 
 > "randomly under-samples each boostrap sample to balance it."
 
-The plan is to use the preferred model to predict how many vehicles of each fuel types will be sold. With this, we can determine if the sale of diesel, petrol, or other vehicles will increase or decrease. We can also try to answer whether diesel or petrol vehicles have more mileage at the time of selling.
-<<<<<<< HEAD
+The original plan was to use the preferred model to predict how many vehicles of each fuel types will be sold. With this, we can determine if the sale of diesel, petrol, or other vehicles will increase or decrease. We can also try to answer whether diesel or petrol vehicles have more mileage at the time of selling.
 
-However, over the course 
-=======
-=======
+However, after some feedback about the differences between unsupervised machine learning (i.e: the models stated above) and supervised machine learning, our plan shifted; instead of comparing the three above unsupervised machine learning models, we would instead use a deep-learning neural network. 
 
-## Machine Learning (Triangle Role)
-I plan on experimenting with a variety of different machine learning models to see what their different results are. 
+To explain what a deep-learning neural network is, IBM explains [here](https://www.ibm.com/cloud/learn/neural-networks) that:
 
-The first model I hope to use is the Easy Ensemble AdaBoost Classifier. In a previous project to classify whether a credit loan application was high-risk or low-risk, a classifier that used the Easy Ensemble AdaBoost Classifier achieved a balanced accuracy score of about 93.17%. I hope that the further use of this model leads to a similar accuracy on our current project.
+> "Neural networks, also known as artificial neural networks (ANNs) or simulated neural networks (SNNs), are a subset of machine learning and are at the heart of deep learning algorithms. Their name and structure are inspired by the human brain, mimicking the way that biological neurons signal to one another."
 
-To quote the scikit [description](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html) of the EEAC:
-
-"An AdaBoost classifier is a meta-estimator that begins by fitting a classifier on the original dataset and then fits additional copies of the classifier on the same dataset but where the weights of incorrectly classified instances are adjusted such that subsequent classifiers focus more on difficult cases."
-
-The next model I will use is the Balanced Random Forest Classifier. Even though it only achieved a balanced accuracy scroe of 78.85, I still plan on using it to compare it against the Easy Ensemble AdaBoost Classifier.
-
-To explain a little about how it works, imbalanced-learn.org [describes](https://imbalanced-learn.org/stable/references/generated/imblearn.ensemble.BalancedRandomForestClassifier.html) the BRFC as a model that:
-
-"randomly under-samples each boostrap sample to balance it."
-
-The plan is to use the preferred model to predict how many vehicles of each fuel types will be sold. With this, we can determine if the number of diesel, petrol, or other vehicles will increase or decrease. 
-
->>>>>>> Alvin_Triangle_Machine_Learning
->>>>>>> 11ae36feb8ab3246293ce298214ea2f9694d059f
+When we created our OneHotEncoder instance and fitted and transformed the OneHotEncoder using the categorical variable list, it split our "fuel" into three different columns; "fuel_Diesel, "fuel_Other", and "fuel_Petrol". As a result, we had to repeat the process of splitting our preprocessed data into our features and target arrays three different times; one for each fuel type. 
