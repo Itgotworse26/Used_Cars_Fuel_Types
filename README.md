@@ -5,6 +5,10 @@ Final Group Assignment for Module 20
 The purpose of this assignment is to use a machine learning model to predict the type of fuel a car from a used car database will use. By using data from www.cardekho.com, we will determine the fuel type of a used car sold in India. By predicting whether a car will be diesel, petrol, or other, we can observe what the fuel types of different vehicles are and whether it will affect their numbers in the future.  
 
 
+## Presentation
+The link to our presentation can be found [here](https://docs.google.com/presentation/d/1l1r_11tTvZuUeoXyJWqmmhsQXKu7Xm3TU2VSQZbhsMw/edit?usp=sharing).
+
+
 ## Data Analysis Phase
 During our analysis, we made a couple of observations from the car_clean.csv file:
 
