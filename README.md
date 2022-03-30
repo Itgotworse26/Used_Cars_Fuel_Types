@@ -9,6 +9,10 @@ The purpose of this assignment is to use a machine learning model to predict the
 The link to our presentation can be found [here](https://docs.google.com/presentation/d/1l1r_11tTvZuUeoXyJWqmmhsQXKu7Xm3TU2VSQZbhsMw/edit?usp=sharing).
 
 
+## Tablueau Public Story
+The link to our Tableau Public story can be found [here](https://public.tableau.com/shared/JMDF3Y6DX?:display_count=n&:origin=viz_share_link).
+
+
 ## Data Analysis Phase
 During our analysis, we made a couple of observations from the car_clean.csv file:
 
