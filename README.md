@@ -16,31 +16,31 @@ The link to our Tableau Public story can be found [here](https://public.tableau.
 ## Data Analysis Phase
 During our analysis, we made a couple of observations from the car_clean.csv file:
 
-![1 Count by Fuel Type](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/main/Resources/1%20Count%20by%20Fuel%20Type.png)
+![1_Count_by_Fuel_Type](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/1_Count_by_Fuel_Type.png)
 
 * Diesel cars are the most commonly sold on cardekho, followed by petrol, and then other.
 
-![2 Mileage by Fuel Type](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/main/Resources/2%20Mileage%20by%20Fuel%20Type.png)
+![2_Mileage_by_Fuel_Type](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/2_Mileage_by_Fuel_Type.png)
 
 * A petrol car has the best mileage while the low end mileage is shared by a diesel and petrol vehicle.
 
-![3 Median Mileage by Fuel Type](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/main/Resources/3%20Median%20Mileage%20by%20Fuel%20Type.png)
+![3_Median_Mileage_by_Fuel_Type](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/3_Median_Mileage_by_Fuel_Type.png)
 
 * Other fuel types have the best median mileage while petrol cars have the worst median mileage.
 
-![4 Selling Price by Fuel Type](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/main/Resources/4%20Selling%20Price%20by%20Fuel%20Type.png)
+![4_Selling_Price_by_Fuel_Type](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/4_Selling_Price_by_Fuel_Type.png)
 
 * A petrol car sold for the most money while a diesel car sold for the least money.
 
-![5 Median Selling Price by Fuel Type](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/main/Resources/5%20Median%20Selling%20Price%20by%20Fuel%20Type.png)
+![5_Median_Selling_Price_by_Fuel_Type](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/5_Median_Selling%20Price_by_Fuel_Type.png)
 
 * Diesel cars have the best median selling price while petrol cars have the worst median mileage.
 
-![6 Fuel Types by Year](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/main/Resources/6%20Fuel%20Types%20by%20Year.png)
+![6_Fuel_Types_by_Year](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/6_Fuel_Types_by_Year.png)
 
 * Diesel cars sold are most commonly represented in the model years  2011-2019. Petrol cars sold are most commonly represented in the model years 2016-2019. 'Other' vehicles only go above 10 examples in the model years 2010 and 2012.
 
-![7 Fuel Type by Manufacturer](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/main/Resources/7%20Fuel%20Type%20by%20Manufacturer.png)
+![7_Fuel_Type_by_Manufacturer](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/7_Fuel_Type_by_Manufacturer.png)
 
 * Maruti is the most prominent manufacturer of sold vehicles. Ashok meanwhile only has 1 diesel car and Opel only has one petrol car. Some manufacturer only have examples of one fuel type while others have examples of all three fuel types.
 
@@ -71,3 +71,9 @@ To explain what a deep-learning neural network is, IBM explains here that:
 When we created our OneHotEncoder instance and fitted and transformed the OneHotEncoder using the categorical variable list, it split our "fuel" into three different columns; "fuel_Diesel, "fuel_Other", and "fuel_Petrol". As a result, we had to repeat the process of splitting our preprocessed data into our features and target arrays three different times; one for each fuel type, with the fuel types being our targets.
 
 Even though our model is functioning, we still feared that the data was too cleaned up, and as a result, it overfitted. Our model_accuracy routinely ran at around 99%; while it meant our model worked, it might not be predicting the trends in fuel types as accurately as we hoped.
+
+To explain what overfitting is, IBM [explains](https://www.ibm.com/cloud/learn/overfitting) that it
+
+> "occurs when a statistical model fits exactly against its training data. When this happens, the algorithm unfortunately cannot perform accurately against unseen data, defeating its purpose.
+
+There is a possibility that the data we used is fitted exactly against the training data, which makes it inaccurate against unseen data, making its ability to predict the future values difficult. 
