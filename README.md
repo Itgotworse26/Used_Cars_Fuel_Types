@@ -70,10 +70,35 @@ To explain what a deep-learning neural network is, IBM explains here that:
 
 When we created our OneHotEncoder instance and fitted and transformed the OneHotEncoder using the categorical variable list, it split our "fuel" into three different columns; "fuel_Diesel, "fuel_Other", and "fuel_Petrol". As a result, we had to repeat the process of splitting our preprocessed data into our features and target arrays three different times; one for each fuel type, with the fuel types being our targets.
 
+As a result, our targets are the "fuel_Diesel, "fuel_Other", and "fuel_Petrol" columns while the features are every other column in the car_clean_df dataframme after merging the one-hot encoded features. 
+
 Even though our model is functioning, we still feared that the data was too cleaned up, and as a result, it overfitted. Our model_accuracy routinely ran at around 99%; while it meant our model worked, it might not be predicting the trends in fuel types as accurately as we hoped.
 
 To explain what overfitting is, IBM [explains](https://www.ibm.com/cloud/learn/overfitting) that it
 
 > "occurs when a statistical model fits exactly against its training data. When this happens, the algorithm unfortunately cannot perform accurately against unseen data, defeating its purpose.
 
-There is a possibility that the data we used is fitted exactly against the training data, which makes it inaccurate against unseen data, making its ability to predict the future values difficult. 
+There is a possibility that the data we used is fitted exactly against the training data, which makes it inaccurate against unseen data, making its ability to predict the future values difficult.
+
+Our results looked like this:
+
+* Diesel Model
+![Diesel_Model](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/Diesel_Model.png)
+
+
+* Diesel Model Accuracy
+![Diesel_Model_Accuracy](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/Diesel_Model_Accuracy.png)
+
+
+* Other Model
+![Other_Model](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/Other_Model.png)
+
+* Other Model Accuracy
+![Other_Model_Accuracy](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/Other_Model_Accuracy.png)
+
+
+* Petrol Model
+![Petrol_Model](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/Petrol_Model.png)
+
+* Petrol Model Accuracy
+![Petrol_Model_Accuracy](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/Petrol_Model_Accuracy.png)
