@@ -83,22 +83,22 @@ There is a possibility that the data we used is fitted exactly against the train
 Our results looked like this:
 
 * Diesel Model
-![Diesel_Model](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/Diesel_Model.png)
+![Diesel_Model](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/Diesel_Model.JPG)
 
 
 * Diesel Model Accuracy
-![Diesel_Model_Accuracy](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/Diesel_Model_Accuracy.png)
+![Diesel_Model_Accuracy](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/Diesel_Model_Accuracy.JPG)
 
 
 * Other Model
-![Other_Model](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/Other_Model.png)
+![Other_Model](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/Other_Model.JPG)
 
 * Other Model Accuracy
-![Other_Model_Accuracy](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/Other_Model_Accuracy.png)
+![Other_Model_Accuracy](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/Other_Model_Accuracy.JPG)
 
 
 * Petrol Model
-![Petrol_Model](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/Petrol_Model.png)
+![Petrol_Model](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/Petrol_Model.JPG)
 
 * Petrol Model Accuracy
-![Petrol_Model_Accuracy](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/Petrol_Model_Accuracy.png)
+![Petrol_Model_Accuracy](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/Petrol_Model_Accuracy.JPG)
