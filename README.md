@@ -10,7 +10,7 @@ The link to our presentation can be found [here](https://docs.google.com/present
 
 
 ## Tablueau Public Story
-The link to our Tableau Public story can be found [here](https://public.tableau.com/shared/JMDF3Y6DX?:display_count=n&:origin=viz_share_link).
+The link to our Tableau Public story can be found [here](https://public.tableau.com/views/Used_Car_Fuel_Types/AnalysisofFuelTypesofUsedCars?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link).
 
 
 ## Data Analysis Phase
@@ -40,7 +40,7 @@ During our analysis, we made a couple of observations from the car_clean.csv fil
 * A petrol car sold for the most money while a diesel car sold for the least money.
 
 
-![7_Median_Selling_Price_by_Fuel_Type](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/5_Median_Selling%20Price_by_Fuel_Type.png)
+![7_Median_Selling_Price_by_Fuel_Type](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/7_Median_Selling_Price_by_Fuel_Type.png)
 
 * Diesel cars have the best median selling price while petrol cars have the worst median mileage.
 
