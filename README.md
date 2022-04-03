@@ -58,7 +58,11 @@ During our analysis, we made a couple of observations from the car_clean.csv fil
 ## Machine Learning Model
 We plan on experimenting with a variety of different machine learning models to see what their different results are. The plan is to use fuel type as the target and use the cleaned up data as the features.
 
-The first model we hope to use is the Easy Ensemble AdaBoost Classifier. In a previous project to classify whether a credit loan application was high-risk or low-risk, a classifier that used the Easy Ensemble AdaBoost Classifier achieved a balanced accuracy score of about 93.17%. We hope that the further use of this model leads to a similar accuracy on our current project.
+The first model we used was a basic Logistic Regression model. We wanted to use Logistic Regression because our target was a category that used multiple outcomes, even though we reduced it to three possibilities. IBM explains [here](https://www.ibm.com/topics/logistic-regression) that Logistic Regression:
+
+> "is often used for predictive analytics and modeling, and extends to applications in machine learning. In this analytics approach, the dependent variable is finite or categorical: either A or B (binary regression) or a range of finite options A, B, C or D (multinomial regression)."
+
+A model we hope to use is the Easy Ensemble AdaBoost Classifier. In a previous project to classify whether a credit loan application was high-risk or low-risk, a classifier that used the Easy Ensemble AdaBoost Classifier achieved a balanced accuracy score of about 93.17%. We hope that the further use of this model leads to a similar accuracy on our current project.
 
 To quote the scikit description of the EEAC:
 
@@ -72,7 +76,7 @@ To explain a little about how it works, imbalanced-learn.org describes the BRFC 
 
 The original plan was to use the preferred model to predict how many vehicles of each fuel types will be sold. With this, we can determine if the sale of diesel, petrol, or other vehicles will increase or decrease. We can also try to answer whether diesel or petrol vehicles have more mileage at the time of selling.
 
-However, after some feedback about the differences between unsupervised machine learning (i.e: the models stated above) and supervised machine learning, our plan shifted; instead of comparing the three above unsupervised machine learning models, we would instead use a deep-learning neural network.
+However, after some feedback about the differences between different machine learning models, we would add a deep-learning neural network to our ensemble.
 
 To explain what a deep-learning neural network is, IBM explains here that:
 
