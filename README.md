@@ -62,17 +62,44 @@ The first model we used was a basic Logistic Regression model. We wanted to use 
 
 > "is often used for predictive analytics and modeling, and extends to applications in machine learning. In this analytics approach, the dependent variable is finite or categorical: either A or B (binary regression) or a range of finite options A, B, C or D (multinomial regression)."
 
-A model we hope to use is the Easy Ensemble AdaBoost Classifier. In a previous project to classify whether a credit loan application was high-risk or low-risk, a classifier that used the Easy Ensemble AdaBoost Classifier achieved a balanced accuracy score of about 93.17%. We hope that the further use of this model leads to a similar accuracy on our current project.
+The Logistic Regression model came out with a 40.55% model accuracy:
 
-To quote the scikit description of the EEAC:
+* Logistic Regression Model Confusion Matrix
+![LR_cm_df](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/LR_cm_df.png)
 
-> "An AdaBoost classifier is a meta-estimator that begins by fitting a classifier on the original dataset and then fits additional copies of the classifier on the same dataset but where the weights of incorrectly classified instances are adjusted such that subsequent classifiers focus more on difficult cases."
+* Logistic Regression Model Accuracy
+![LR_Model_Accuracy](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/LR_Model_Accuracy.JPG.png)
+
 
 The next model we will use is the Balanced Random Forest Classifier. Even though it only achieved a balanced accuracy scroe of 78.85, we still plan on using it to compare it against the Easy Ensemble AdaBoost Classifier.
 
 To explain a little about how it works, imbalanced-learn.org describes the BRFC as a model that:
 
 > "randomly under-samples each boostrap sample to balance it."
+
+The Balanced Random Forest Classifier model came out with a 87% model accuracy:
+
+* Balanced Random Forest Classifier Model Confusion Matrix
+![BRFC_cm_df](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/BRFC_cm_df.png)
+
+* Balanced Random Forest Classifier Model Accuracy
+![BRFC_Model_Accuracy](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/BRFC_Model_Accuracy.png)
+
+
+The last model we hope to use is the Easy Ensemble AdaBoost Classifier. In a previous project to classify whether a credit loan application was high-risk or low-risk, a classifier that used the Easy Ensemble AdaBoost Classifier achieved a balanced accuracy score of about 93.17%. We hope that the further use of this model leads to a similar accuracy on our current project.
+
+To quote the scikit description of the EEAC:
+
+> "An AdaBoost classifier is a meta-estimator that begins by fitting a classifier on the original dataset and then fits additional copies of the classifier on the same dataset but where the weights of incorrectly classified instances are adjusted such that subsequent classifiers focus more on difficult cases."
+
+The Easy Ensemble AdaBoost Classifier model came out with a 81.26% model accuracy:
+
+* Easy Ensemble AdaBoost Classifier Model Confusion Matrix
+![EEAC_cm_df](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/EEAC_cm_df.png)
+
+* Easy Ensemble AdaBoost Classifier Model Accuracy
+![EEAC_Model_Accuracy](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/EEAC_Model_Accuracy.png)
+
 
 The original plan was to use the preferred model to predict how many vehicles of each fuel types will be sold. With this, we can determine if the sale of diesel, petrol, or other vehicles will increase or decrease. We can also try to answer whether diesel or petrol vehicles have more mileage at the time of selling.
 
