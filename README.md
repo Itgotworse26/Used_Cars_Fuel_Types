@@ -9,34 +9,48 @@ The purpose of this assignment is to use a machine learning model to predict the
 The link to our presentation can be found [here](https://docs.google.com/presentation/d/1l1r_11tTvZuUeoXyJWqmmhsQXKu7Xm3TU2VSQZbhsMw/edit?usp=sharing).
 
 
+## Tablueau Public Story
+The link to our Tableau Public story can be found [here](https://public.tableau.com/views/Used_Car_Fuel_Types/AnalysisofFuelTypesofUsedCars?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link).
+
+
 ## Data Analysis Phase
 During our analysis, we made a couple of observations from the car_clean.csv file:
 
-![1 Count by Fuel Type](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/main/Resources/1%20Count%20by%20Fuel%20Type.png)
+![1_Count_by_Fuel_Type](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/1_Count_by_Fuel_Type.png)
+
+![2_Count_by_Fuel_Type_Pie](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/2_Count_by_Fuel_Type_Pie.png)
 
 * Diesel cars are the most commonly sold on cardekho, followed by petrol, and then other.
 
-![2 Mileage by Fuel Type](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/main/Resources/2%20Mileage%20by%20Fuel%20Type.png)
+
+![3_Mileage_by_Fuel_Type](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/3_Mileage_by_Fuel_Type.png)
 
 * A petrol car has the best mileage while the low end mileage is shared by a diesel and petrol vehicle.
 
-![3 Median Mileage by Fuel Type](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/main/Resources/3%20Median%20Mileage%20by%20Fuel%20Type.png)
+
+![4_Median_Mileage_by_Fuel_Type](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/4_Median_Mileage_by_Fuel_Type.png)
 
 * Other fuel types have the best median mileage while petrol cars have the worst median mileage.
 
-![4 Selling Price by Fuel Type](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/main/Resources/4%20Selling%20Price%20by%20Fuel%20Type.png)
+
+![5_Selling_Price_by_Fuel_Type](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/5_Selling_Price_by_Fuel_Type.png)
+
+![6_Selling_Price_vs._Year_and_Fuel_Types](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/6_Selling_Price_vs._Year_and_Fuel_Types.png)
 
 * A petrol car sold for the most money while a diesel car sold for the least money.
 
-![5 Median Selling Price by Fuel Type](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/main/Resources/5%20Median%20Selling%20Price%20by%20Fuel%20Type.png)
+
+![7_Median_Selling_Price_by_Fuel_Type](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/7_Median_Selling_Price_by_Fuel_Type.png)
 
 * Diesel cars have the best median selling price while petrol cars have the worst median mileage.
 
-![6 Fuel Types by Year](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/main/Resources/6%20Fuel%20Types%20by%20Year.png)
+
+![8_Fuel_Types_by_Year](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/8_Fuel_Types_by_Year.png)
 
 * Diesel cars sold are most commonly represented in the model years  2011-2019. Petrol cars sold are most commonly represented in the model years 2016-2019. 'Other' vehicles only go above 10 examples in the model years 2010 and 2012.
 
-![7 Fuel Type by Manufacturer](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/main/Resources/7%20Fuel%20Type%20by%20Manufacturer.png)
+
+![9_Fuel_Type_by_Manufacturer](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/9_Fuel_Type_by_Manufacturer.png)
 
 * Maruti is the most prominent manufacturer of sold vehicles. Ashok meanwhile only has 1 diesel car and Opel only has one petrol car. Some manufacturer only have examples of one fuel type while others have examples of all three fuel types.
 
@@ -66,4 +80,35 @@ To explain what a deep-learning neural network is, IBM explains here that:
 
 When we created our OneHotEncoder instance and fitted and transformed the OneHotEncoder using the categorical variable list, it split our "fuel" into three different columns; "fuel_Diesel, "fuel_Other", and "fuel_Petrol". As a result, we had to repeat the process of splitting our preprocessed data into our features and target arrays three different times; one for each fuel type, with the fuel types being our targets.
 
+As a result, our targets are the "fuel_Diesel, "fuel_Other", and "fuel_Petrol" columns while the features are every other column in the car_clean_df dataframme after merging the one-hot encoded features. 
+
 Even though our model is functioning, we still feared that the data was too cleaned up, and as a result, it overfitted. Our model_accuracy routinely ran at around 99%; while it meant our model worked, it might not be predicting the trends in fuel types as accurately as we hoped.
+
+To explain what overfitting is, IBM [explains](https://www.ibm.com/cloud/learn/overfitting) that it
+
+> "occurs when a statistical model fits exactly against its training data. When this happens, the algorithm unfortunately cannot perform accurately against unseen data, defeating its purpose.
+
+There is a possibility that the data we used is fitted exactly against the training data, which makes it inaccurate against unseen data, making its ability to predict the future values difficult.
+
+Our results looked like this:
+
+* Diesel Model
+![Diesel_Model](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/Diesel_Model.JPG)
+
+
+* Diesel Model Accuracy
+![Diesel_Model_Accuracy](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/Diesel_Model_Accuracy.JPG)
+
+
+* Other Model
+![Other_Model](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/Other_Model.JPG)
+
+* Other Model Accuracy
+![Other_Model_Accuracy](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/Other_Model_Accuracy.JPG)
+
+
+* Petrol Model
+![Petrol_Model](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/Petrol_Model.JPG)
+
+* Petrol Model Accuracy
+![Petrol_Model_Accuracy](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/Petrol_Model_Accuracy.JPG)
