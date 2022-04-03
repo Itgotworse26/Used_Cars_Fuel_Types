@@ -150,4 +150,4 @@ However, despite our functioning models, they did not provide an explicit result
 
 Non-diesel and non-petrol vehicles are being sold at lower prices due to the dangers of the fuel used; liquefied petroleum gas and compressed natural gas have sensitivities that makes them unattractive to most consumers.
 
-While diesel vehicles still make up the vast majority of used Indian cars, the fact that they are being sold more often at lower prices hints that if an electric vehicle can compete at price and service with a used diesel car, it can be an excellent entry into the Indian car market. 
+While diesel vehicles still make up the vast majority of used Indian cars, the fact that they are being sold more often while other fuel vehiles are being sold at lower prices hints that if an electric vehicle can compete at the price of a used or new diesel car and yet have better service than a current other fuel car, it can be an excellent entry into the Indian car market. 
