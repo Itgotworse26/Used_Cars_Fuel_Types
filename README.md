@@ -62,28 +62,28 @@ The first model we used was a basic Logistic Regression model. We wanted to use 
 
 > "is often used for predictive analytics and modeling, and extends to applications in machine learning. In this analytics approach, the dependent variable is finite or categorical: either A or B (binary regression) or a range of finite options A, B, C or D (multinomial regression)."
 
-The Logistic Regression model came out with a 40.55% model accuracy:
+The Logistic Regression model came out with a 40.55% balanced accuracy score:
 
 * Logistic Regression Model Confusion Matrix
-![LR_cm_df](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/LR_cm_df.png)
+![LR_cm_df](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/LR_cm_df.png))
 
-* Logistic Regression Model Accuracy
-![LR_Model_Accuracy](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/LR_Model_Accuracy.JPG)
+* Logistic Regression Balanced Accuracy Score
+![LR_Balanced_Accuracy_Score](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/LR_Balanced_Accuracy_Score.JPG)
 
 
-The next model we will use is the Balanced Random Forest Classifier. Even though it only achieved a balanced accuracy scroe of 78.85, we still plan on using it to compare it against the Easy Ensemble AdaBoost Classifier.
+The next model we will use is the Balanced Random Forest Classifier. Even though it only achieved a balanced accuracy score of 78.85 in a previous project, we still plan on using it to compare it against the Easy Ensemble AdaBoost Classifier.
 
 To explain a little about how it works, imbalanced-learn.org describes the BRFC as a model that:
 
 > "randomly under-samples each boostrap sample to balance it."
 
-The Balanced Random Forest Classifier model came out with a 87% model accuracy:
+The Balanced Random Forest Classifier model came out with a 87% balanced accuracy score:
 
 * Balanced Random Forest Classifier Model Confusion Matrix
 ![BRFC_cm_df](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/BRFC_cm_df.png)
 
-* Balanced Random Forest Classifier Model Accuracy
-![BRFC_Model_Accuracy](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/BRFC_Model_Accuracy.JPG)
+* Balanced Random Forest Classifier Balanced Accuracy Score
+![BRFC_Balanced_Accuracy_Score](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/BRFC_Balanced_Accuracy_Score.JPG)
 
 
 The last model we hope to use is the Easy Ensemble AdaBoost Classifier. In a previous project to classify whether a credit loan application was high-risk or low-risk, a classifier that used the Easy Ensemble AdaBoost Classifier achieved a balanced accuracy score of about 93.17%. We hope that the further use of this model leads to a similar accuracy on our current project.
@@ -97,8 +97,8 @@ The Easy Ensemble AdaBoost Classifier model came out with a 81.26% model accurac
 * Easy Ensemble AdaBoost Classifier Model Confusion Matrix
 ![EEAC_cm_df](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/EEAC_cm_df.png)
 
-* Easy Ensemble AdaBoost Classifier Model Accuracy
-![EEAC_Model_Accuracy](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/EEAC_Model_Accuracy.JPG)
+* Easy Ensemble AdaBoost Classifier Balanced Accuracy Score
+![EEAC_Balanced_Accuracy_Score](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/EEAC_Balanced_Accuracy_Score.JPG)
 
 
 The original plan was to use the preferred model to predict how many vehicles of each fuel types will be sold. With this, we can determine if the sale of diesel, petrol, or other vehicles will increase or decrease. We can also try to answer whether diesel or petrol vehicles have more mileage at the time of selling.
@@ -143,3 +143,9 @@ Our results looked like this:
 
 * Petrol Model Accuracy
 ![Petrol_Model_Accuracy](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/Petrol_Model_Accuracy.JPG)
+
+
+## Conclusions
+However, despite our functioning models, they did not provide an explicit result or insight to our questions. Our Tableau analysis gave a more solid picture of what the Indian used car market looked like; a market dominated by diesel vehicles, followed by petrol vehicles, with non-diesel and non petrol vehicles being an after-thought. 
+
+While diesel vehicles still make up the vast majority of used Indian cars, the fact that they are being sold more often at lower prices hints that if an electric vehicle can compete at price and service with a used diesel car, it can be an excellent entry into the Indian car market. 
