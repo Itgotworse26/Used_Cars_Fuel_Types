@@ -71,7 +71,7 @@ The Logistic Regression model came out with a 40.55% balanced accuracy score:
 ![LR_Balanced_Accuracy_Score](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/LR_Balanced_Accuracy_Score.JPG)
 
 
-The next model we will use is the Balanced Random Forest Classifier. Even though it only achieved a balanced accuracy score of 78.85 in a previous project, we still plan on using it to compare it against the Easy Ensemble AdaBoost Classifier.
+The next model we will use is the Balanced Random Forest Classifier. Even though it only achieved a balanced accuracy score of 78.85 in a previous project to classify whether a credit loan application was high-risk or low-risk, we still plan on using it to compare it against the Easy Ensemble AdaBoost Classifier.
 
 To explain a little about how it works, imbalanced-learn.org describes the BRFC as a model that:
 
@@ -86,7 +86,7 @@ The Balanced Random Forest Classifier model came out with a 87% balanced accurac
 ![BRFC_Balanced_Accuracy_Score](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/BRFC_Balanced_Accuracy_Score.JPG)
 
 
-The last model we hope to use is the Easy Ensemble AdaBoost Classifier. In a previous project to classify whether a credit loan application was high-risk or low-risk, a classifier that used the Easy Ensemble AdaBoost Classifier achieved a balanced accuracy score of about 93.17%. We hope that the further use of this model leads to a similar accuracy on our current project.
+The last model we hope to use is the Easy Ensemble AdaBoost Classifier. In the previous project to classify whether a credit loan application was high-risk or low-risk, a classifier that used the Easy Ensemble AdaBoost Classifier achieved a balanced accuracy score of about 93.17%. We hope that the further use of this model leads to a similar accuracy on our current project.
 
 To quote the scikit description of the EEAC:
 
