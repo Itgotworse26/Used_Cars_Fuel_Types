@@ -68,7 +68,7 @@ The Logistic Regression model came out with a 40.55% model accuracy:
 ![LR_cm_df](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/LR_cm_df.png)
 
 * Logistic Regression Model Accuracy
-![LR_Model_Accuracy](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/LR_Model_Accuracy.JPG.png)
+![LR_Model_Accuracy](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/LR_Model_Accuracy.JPG)
 
 
 The next model we will use is the Balanced Random Forest Classifier. Even though it only achieved a balanced accuracy scroe of 78.85, we still plan on using it to compare it against the Easy Ensemble AdaBoost Classifier.
@@ -83,7 +83,7 @@ The Balanced Random Forest Classifier model came out with a 87% model accuracy:
 ![BRFC_cm_df](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/BRFC_cm_df.png)
 
 * Balanced Random Forest Classifier Model Accuracy
-![BRFC_Model_Accuracy](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/BRFC_Model_Accuracy.png)
+![BRFC_Model_Accuracy](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/BRFC_Model_Accuracy.JPG)
 
 
 The last model we hope to use is the Easy Ensemble AdaBoost Classifier. In a previous project to classify whether a credit loan application was high-risk or low-risk, a classifier that used the Easy Ensemble AdaBoost Classifier achieved a balanced accuracy score of about 93.17%. We hope that the further use of this model leads to a similar accuracy on our current project.
@@ -98,7 +98,7 @@ The Easy Ensemble AdaBoost Classifier model came out with a 81.26% model accurac
 ![EEAC_cm_df](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/EEAC_cm_df.png)
 
 * Easy Ensemble AdaBoost Classifier Model Accuracy
-![EEAC_Model_Accuracy](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/EEAC_Model_Accuracy.png)
+![EEAC_Model_Accuracy](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/EEAC_Model_Accuracy.JPG)
 
 
 The original plan was to use the preferred model to predict how many vehicles of each fuel types will be sold. With this, we can determine if the sale of diesel, petrol, or other vehicles will increase or decrease. We can also try to answer whether diesel or petrol vehicles have more mileage at the time of selling.
