@@ -58,21 +58,52 @@ During our analysis, we made a couple of observations from the car_clean.csv fil
 ## Machine Learning Model
 We plan on experimenting with a variety of different machine learning models to see what their different results are. The plan is to use fuel type as the target and use the cleaned up data as the features.
 
-The first model we hope to use is the Easy Ensemble AdaBoost Classifier. In a previous project to classify whether a credit loan application was high-risk or low-risk, a classifier that used the Easy Ensemble AdaBoost Classifier achieved a balanced accuracy score of about 93.17%. We hope that the further use of this model leads to a similar accuracy on our current project.
+The first model we used was a basic Logistic Regression model. We wanted to use Logistic Regression because our target was a category that used multiple outcomes, even though we reduced it to three possibilities. IBM explains [here](https://www.ibm.com/topics/logistic-regression) that Logistic Regression:
 
-To quote the scikit description of the EEAC:
+> "is often used for predictive analytics and modeling, and extends to applications in machine learning. In this analytics approach, the dependent variable is finite or categorical: either A or B (binary regression) or a range of finite options A, B, C or D (multinomial regression)."
 
-> "An AdaBoost classifier is a meta-estimator that begins by fitting a classifier on the original dataset and then fits additional copies of the classifier on the same dataset but where the weights of incorrectly classified instances are adjusted such that subsequent classifiers focus more on difficult cases."
+The Logistic Regression model came out with a 40.55% balanced accuracy score:
 
-The next model we will use is the Balanced Random Forest Classifier. Even though it only achieved a balanced accuracy scroe of 78.85, we still plan on using it to compare it against the Easy Ensemble AdaBoost Classifier.
+* Logistic Regression Model Confusion Matrix
+![LR_cm_df](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/LR_cm_df.png))
+
+* Logistic Regression Balanced Accuracy Score
+![LR_Balanced_Accuracy_Score](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/LR_Balanced_Accuracy_Score.JPG)
+
+
+The next model we will use is the Balanced Random Forest Classifier. Even though it only achieved a balanced accuracy score of 78.85 in a previous project to classify whether a credit loan application was high-risk or low-risk, we still plan on using it to compare it against the Easy Ensemble AdaBoost Classifier.
 
 To explain a little about how it works, imbalanced-learn.org describes the BRFC as a model that:
 
 > "randomly under-samples each boostrap sample to balance it."
 
+The Balanced Random Forest Classifier model came out with a 87% balanced accuracy score:
+
+* Balanced Random Forest Classifier Model Confusion Matrix
+![BRFC_cm_df](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/BRFC_cm_df.png)
+
+* Balanced Random Forest Classifier Balanced Accuracy Score
+![BRFC_Balanced_Accuracy_Score](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/BRFC_Balanced_Accuracy_Score.JPG)
+
+
+The last model we hope to use is the Easy Ensemble AdaBoost Classifier. In the previous project to classify whether a credit loan application was high-risk or low-risk, a classifier that used the Easy Ensemble AdaBoost Classifier achieved a balanced accuracy score of about 93.17%. We hope that the further use of this model leads to a similar accuracy on our current project.
+
+To quote the scikit description of the EEAC:
+
+> "An AdaBoost classifier is a meta-estimator that begins by fitting a classifier on the original dataset and then fits additional copies of the classifier on the same dataset but where the weights of incorrectly classified instances are adjusted such that subsequent classifiers focus more on difficult cases."
+
+The Easy Ensemble AdaBoost Classifier model came out with a 81.26% model accuracy:
+
+* Easy Ensemble AdaBoost Classifier Model Confusion Matrix
+![EEAC_cm_df](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/EEAC_cm_df.png)
+
+* Easy Ensemble AdaBoost Classifier Balanced Accuracy Score
+![EEAC_Balanced_Accuracy_Score](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/EEAC_Balanced_Accuracy_Score.JPG)
+
+
 The original plan was to use the preferred model to predict how many vehicles of each fuel types will be sold. With this, we can determine if the sale of diesel, petrol, or other vehicles will increase or decrease. We can also try to answer whether diesel or petrol vehicles have more mileage at the time of selling.
 
-However, after some feedback about the differences between unsupervised machine learning (i.e: the models stated above) and supervised machine learning, our plan shifted; instead of comparing the three above unsupervised machine learning models, we would instead use a deep-learning neural network.
+However, after some feedback about the differences between different machine learning models, we would add a deep-learning neural network to our ensemble.
 
 To explain what a deep-learning neural network is, IBM explains here that:
 
@@ -112,3 +143,11 @@ Our results looked like this:
 
 * Petrol Model Accuracy
 ![Petrol_Model_Accuracy](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/Petrol_Model_Accuracy.JPG)
+
+
+## Conclusions
+However, despite our functioning models, they did not provide an explicit result or insight to our questions. Our Tableau analysis gave a more solid picture of what the Indian used car market looked like; a market dominated by diesel vehicles, followed by petrol vehicles, with non-diesel and non petrol vehicles being an after-thought. 
+
+Non-diesel and non-petrol vehicles are being sold at lower prices due to the dangers of the fuel used; liquefied petroleum gas and compressed natural gas have sensitivities that makes them unattractive to most consumers.
+
+While diesel vehicles still make up the vast majority of used Indian cars, the fact that they are being sold more often while other fuel vehiles are being sold at lower prices hints that if an electric vehicle can compete at the price of a used or new diesel car and yet have better service than a current other fuel car, it can be an excellent entry into the Indian car market. 
