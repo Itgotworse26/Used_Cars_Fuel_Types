@@ -148,4 +148,6 @@ Our results looked like this:
 ## Conclusions
 However, despite our functioning models, they did not provide an explicit result or insight to our questions. Our Tableau analysis gave a more solid picture of what the Indian used car market looked like; a market dominated by diesel vehicles, followed by petrol vehicles, with non-diesel and non petrol vehicles being an after-thought. 
 
+Non-diesel and non-petrol vehicles are being sold at lower prices due to the dangers of the fuel used; liquefied petroleum gas and compressed natural gas have sensitivities that makes them unattractive to most consumers.
+
 While diesel vehicles still make up the vast majority of used Indian cars, the fact that they are being sold more often at lower prices hints that if an electric vehicle can compete at price and service with a used diesel car, it can be an excellent entry into the Indian car market. 
