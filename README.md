@@ -10,7 +10,7 @@ The link to our presentation can be found [here](https://docs.google.com/present
 
 
 ## Tablueau Public Story
-The link to our Tableau Public story can be found [here](https://public.tableau.com/views/Used_Car_Fuel_Types/AnalysisofFuelTypesofUsedCars?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link).
+The link to our Tableau Public story can be found [Story](https://public.tableau.com/views/Used_Car_Fuel_Types/AnalysisofFuelTypesofUsedCars?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link).and [Dashboard](https://public.tableau.com/app/profile/winny8874/viz/Used_Car_Fuel_Types_Dashboard/Summary_Dashboard?publish=yes)
 
 
 ## Data Analysis Phase
