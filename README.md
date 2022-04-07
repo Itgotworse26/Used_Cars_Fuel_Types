@@ -64,10 +64,12 @@ The first model we used was a basic Logistic Regression model. We wanted to use 
 
 The Logistic Regression model came out with a 40.55% balanced accuracy score:
 
-* Logistic Regression Model Confusion Matrix
+* Logistic Regression Model Confusion Matrix:
+
 ![LR_cm_df](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/LR_cm_df.png))
 
-* Logistic Regression Balanced Accuracy Score
+* Logistic Regression Balanced Accuracy Score:
+
 ![LR_Balanced_Accuracy_Score](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/LR_Balanced_Accuracy_Score.JPG)
 
 
@@ -79,10 +81,12 @@ To explain a little about how it works, imbalanced-learn.org describes the BRFC 
 
 The Balanced Random Forest Classifier model came out with a 87% balanced accuracy score:
 
-* Balanced Random Forest Classifier Model Confusion Matrix
+* Balanced Random Forest Classifier Model Confusion Matrix:
+
 ![BRFC_cm_df](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/BRFC_cm_df.png)
 
-* Balanced Random Forest Classifier Balanced Accuracy Score
+* Balanced Random Forest Classifier Balanced Accuracy Score:
+
 ![BRFC_Balanced_Accuracy_Score](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/BRFC_Balanced_Accuracy_Score.JPG)
 
 
@@ -94,10 +98,12 @@ To quote the scikit description of the EEAC:
 
 The Easy Ensemble AdaBoost Classifier model came out with a 81.26% model accuracy:
 
-* Easy Ensemble AdaBoost Classifier Model Confusion Matrix
+* Easy Ensemble AdaBoost Classifier Model Confusion Matrix:
+
 ![EEAC_cm_df](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/EEAC_cm_df.png)
 
-* Easy Ensemble AdaBoost Classifier Balanced Accuracy Score
+* Easy Ensemble AdaBoost Classifier Balanced Accuracy Score:
+
 ![EEAC_Balanced_Accuracy_Score](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/EEAC_Balanced_Accuracy_Score.JPG)
 
 
