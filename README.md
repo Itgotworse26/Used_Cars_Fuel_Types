@@ -1,4 +1,4 @@
-# Final_Project
+# Used_Cars_Fuel_Types
 Final Group Assignment for Module 20
 
 ## Background
@@ -9,8 +9,8 @@ The purpose of this assignment is to use a machine learning model to predict the
 The link to our presentation can be found [here](https://docs.google.com/presentation/d/1l1r_11tTvZuUeoXyJWqmmhsQXKu7Xm3TU2VSQZbhsMw/edit?usp=sharing).
 
 
-## Tablueau Public Story
-The link to our Tableau Public story can be found [Story](https://public.tableau.com/views/Used_Car_Fuel_Types/AnalysisofFuelTypesofUsedCars?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link).and [Dashboard](https://public.tableau.com/app/profile/winny8874/viz/Used_Car_Fuel_Types_Dashboard/Summary_Dashboard?publish=yes)
+## Tablueau 
+The link to our Tableau Public [story](https://public.tableau.com/views/Used_Car_Fuel_Types/AnalysisofFuelTypesofUsedCars?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) and [dashboard](https://public.tableau.com/app/profile/winny8874/viz/Used_Car_Fuel_Types_Dashboard/Summary_Dashboard?publish=yes) can be found here.
 
 
 ## Data Analysis Phase
@@ -123,31 +123,50 @@ There is a possibility that the data we used is fitted exactly against the train
 
 Our results looked like this:
 
-* Diesel Model
+* Diesel Model:
+
 ![Diesel_Model](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/Diesel_Model.JPG)
 
 
-* Diesel Model Accuracy
+* Diesel Model Accuracy:
+
 ![Diesel_Model_Accuracy](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/Diesel_Model_Accuracy.JPG)
 
+* Other Model:
 
-* Other Model
 ![Other_Model](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/Other_Model.JPG)
 
-* Other Model Accuracy
+* Other Model Accuracy:
+
 ![Other_Model_Accuracy](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/Other_Model_Accuracy.JPG)
 
+* Petrol Model:
 
-* Petrol Model
 ![Petrol_Model](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/Petrol_Model.JPG)
 
-* Petrol Model Accuracy
+* Petrol Model Accuracy:
+
 ![Petrol_Model_Accuracy](https://github.com/Itgotworse26/Used_Cars_Fuel_Types/blob/Alvin_Triangle_Machine_Learning/Resources/Petrol_Model_Accuracy.JPG)
 
 
-## Conclusions
+## Conclusions  
+As seen above, the Balanced Random Forest Classifier had the best balanced accuracy score at 87%. Also, the deep-learning neural network is functioning at 98%-99% accuracy.
+
 However, despite our functioning models, they did not provide an explicit result or insight to our questions. Our Tableau analysis gave a more solid picture of what the Indian used car market looked like; a market dominated by diesel vehicles, followed by petrol vehicles, with non-diesel and non petrol vehicles being an after-thought. 
 
 Non-diesel and non-petrol vehicles are being sold at lower prices due to the dangers of the fuel used; liquefied petroleum gas and compressed natural gas have sensitivities that makes them unattractive to most consumers.
 
-While diesel vehicles still make up the vast majority of used Indian cars, the fact that they are being sold more often while other fuel vehiles are being sold at lower prices hints that if an electric vehicle can compete at the price of a used or new diesel car and yet have better service than a current other fuel car, it can be an excellent entry into the Indian car market. 
+We also identified Maruti as the most prominent car manufacturer in India, making them an attractive brand to use for any potential electric vehicle.
+
+
+## Recommendations 
+An electric vehicle that can compete at the price of 2,300,000 Rupees / $30,301; the upper price of a used diesel car, and yet have better service than a current other fuel car can be an excellent entry into the Indian car market. An electric car that is price-compatible with an upscale used diesel car and is still more reliable than an other fuel vehicle would be an attractive option for any push into the Indian car market. 
+
+Since Maruti is the most prominent manufacturer, an electric vehicle developed and  marketed by Maruti could have the best branding power in the Indian car market. If an electric vehicle is still seen as too risky, a hybrid fuel/electric vehicle could be an easier choice for Indian consumers to back. 
+
+## Limitations
+Among the limitations we discussed, we pointed out:
+
+* The lack of an analysis of the purchasing power or lack of purchasing power of the average Indian consumer.
+* A failure to account for the lack of reliable charging infrastructure in India.
+* The ML models; particularly, the deep-learning neural network might be overfitted. To explain; the statistical model fits exactly against its training data, meaning that our algorithm unfortunately cannot perform accurately against unseen data. A good sign of this is the fact that the model accuracy is at 98%-99%. 
