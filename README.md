@@ -173,6 +173,6 @@ Since Maruti is the most prominent manufacturer, an electric vehicle developed a
 ## Limitations
 Among the limitations we discussed, we pointed out:
 
-* The lack of an analysis of the purchasing power or lack of purchasing power of the average Indian consumer.
+* Most Indian consumers prefer two-wheeled vehicles over four-wheeled cars.
 * A failure to account for the lack of reliable charging infrastructure in India.
 * The ML models; particularly, the deep-learning neural network might be overfitted. To explain; the statistical model fits exactly against its training data, meaning that our algorithm unfortunately cannot perform accurately against unseen data. A good sign of this is the fact that the model accuracy is at 98%-99%. 
